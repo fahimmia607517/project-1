@@ -42,3 +42,29 @@ nav a {
 .photo {
     display: flex;
 }
+
+.second-round {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.hading-1 {
+    font-size: 30px;
+    font-weight: 300;
+
+
+}
+
+.hading-2 {
+    font-size: 20px;
+    font-weight: 150;
+}
+
+/* img style */
+.img-costom {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
