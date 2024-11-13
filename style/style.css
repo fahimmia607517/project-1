@@ -1,0 +1,44 @@
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    /* border: 2px solid royalblue; */
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.photo {
+    display: flex;
+}
