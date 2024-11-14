@@ -68,3 +68,76 @@ nav a {
     margin: 30px;
 
 }
+
+/* footer work */
+.footer-section {
+    border: 2px solid red;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+}
+
+/* main working */
+.main-containar {
+    text-align: center0;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.first-text {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 50px;
+}
+
+/* card working start ///// */
+.work-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+
+
+}
+
+.work-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 300px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect  card */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for image */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+/* Product nane */
+.product-name {
+    font-size: 20px;
+}
+
+/* bal ar kaj */
+.main-heard {
+    font-size: 20px;
+}
